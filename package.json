@@ -1,0 +1,28 @@
+{
+  "name": "todo-node-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./app/**/*.spec.js",
+    "test-watch": "nodemon --exec npm test"
+  },
+  "author": "Harshal Bawaskar",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.3.0",
+    "lodash": "^4.17.11",
+    "mongodb": "^3.1.8",
+    "mongoose": "^5.3.4",
+    "validator": "^10.8.0"
+  },
+  "devDependencies": {
+    "expect": "^23.6.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.4",
+    "supertest": "^3.3.0"
+  }
+}
